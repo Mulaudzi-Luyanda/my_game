@@ -1,0 +1,37 @@
+  body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            color: #333;
+        }
+        .choices {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .choices button {
+            width: 100px;
+            height: 100px;
+            margin: 0 10px;
+            font-size: 16px;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        .choices button.rock {
+            background-color: red;
+        }
+        .choices button.paper {
+            background-color: green;
+        }
+        .choices button.scissors {
+            background-color: yellow;
+            color: black;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
